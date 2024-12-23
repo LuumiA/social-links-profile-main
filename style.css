@@ -1,0 +1,47 @@
+/* Reset CSS - Supprime les marges et paddings par défaut */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Gère les bordures et paddings dans la taille totale */
+}
+
+/* Applique une largeur pleine sur body et html */
+html,
+body {
+  height: 100%; /* Prend tout l'espace disponible */
+  width: 100%;
+  background-color: hsl(0, 0%, 8%);
+  display: flex; /* Active Flexbox */
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+}
+
+/* Style pour l'attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Conteneur principal */
+.main_container {
+  background-color: hsl(0, 0%, 12%);
+  height: 75%;
+  width: 35%;
+  border-radius: 3%;
+  color: white; /* Texte en blanc pour qu'il ressorte */
+  padding: 20px; /* Ajoute un espace intérieur */
+  text-align: center; /* Centrer le texte */
+  display: flex;
+  flex-direction: column; /* Organise les éléments en colonne (ligne par ligne) */
+  align-items: center; /* Centre horizontalement les enfants */
+  gap: 15px; /* Ajoute de l’espace entre les éléments */
+}
+
+img {
+  border-radius: 50%;
+  height: 15%;
+}
